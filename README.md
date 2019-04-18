@@ -1,2 +1,2 @@
 # beautiful-county
-gitee上的项目搬过来了
+手撕jQuery比较有意思的项目
