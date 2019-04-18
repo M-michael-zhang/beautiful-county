@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFF;
+}
+video{
+    background-color:#000;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    /*加滤镜*/
+    -webkit-filter: brightness(50%) ;
+    filter:brightness(50%) ;
+    z-index:-1;
+}
+source{
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+#all {
+    background-color: #333333;
+    height: 1700px;
+    width: 100%;
+}
+#all #video {
+    height: 805px;
+    width: 100%;
+    background-color: #FF3;
+    position:relative;
+}
+#all #video .bt {
+    position:absolute;
+    top:250px;
+    left:500px;
+    font-size:80px;
+    color:#FFF;
+    z-index:3;
+}
+#all #cont {
+    background-color: #333333;
+    height: 550px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 70px;
+}
+#all #cont #left {
+    height: 80%;
+    width: 37%;
+    background-color: #333333;
+    float:left;
+    margin-top:20px;
+}
+#all #cont #right {
+    height: 100%;
+    width: 63%;
+    background-color: #333333;
+    float:left;
+}
+#all #cont #left .annue {
+    height: 85px;
+    width: 50%;
+    float: left;
+    background-color: #333333;
+}
+
+#all #cont #left .annue .button {
+    background-color: #222222;
+    width: 80%;
+    height: 80%;
+}
+#all #jb {
+    background-image: url(../img/jb1.jpg);
+    height: 228px;
+    width: 100%;
+}
+#return {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #FFF;
+    color:#000;
+    position:absolute;
+    top:20px;
+    left:50px;
+    opacity:0.4;
+    z-index:1;
+
+}
+#return h {
+    position:absolute;
+    color: #000;
+    top:5px;
+    left:10px;
+    font-size:20px;
+
+}

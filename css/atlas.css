@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    font-family: "微软雅黑";
+
+}
+#name {
+    left: 20px;
+    position: absolute;
+    top: 600px;
+    color: #FFF;
+    z-index: 1;
+    height: 200px;
+    width: 300px;
+}
+.left{
+    background-color: #000;
+    height: 99%;
+    width: 69%;
+    margin-right: 1%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    margin-left:1%;
+    margin-top:1%;
+}
+.right{
+    height: 100%;
+    width: 29%;
+    float: right;
+    overflow: auto;
+    top: 1%;
+    z-index:9;
+
+    display:none;
+}
+.country{
+    height: 49%;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 1%;
+}
+
+.right .country .countrytop {
+    background-color: #000;
+    height: 75%;
+    width: 100%;
+    float: left;
+    margin-bottom:1%;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #FFF;
+}
+.right .country .countrydown {
+    background-color: #699;
+    height: 24%;
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    z-index: 999;
+    position: relative;
+}
+.right .country .countrytop .countrytopleft {
+    background-color: #333;
+    float: left;
+    height: 100%;
+    width: 49.5%;
+    margin-right: 0.5%;
+    position:relative;
+}
+.right .country .countrytop .countrytopleft .countrytopleftimg{
+    float: left;
+    height: 100%;
+    width: 100%;
+
+}
+.right .country .countrytop .countrytopright {
+    background-color: #000;
+    float: right;
+    height: 100%;
+    width: 49.5%;
+    margin-left: 0.5%;
+}
+.right .country .countrytop .countrytopright .countrytopright1 {
+    float: left;
+    height: 49%;
+    width: 100%;
+    margin-bottom:1%;
+    position:relative;
+    background-color: #333;
+}
+.right .country .countrytop .countrytopright .countrytopright1 .countrytopright1img{
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.right .country .countrytop .countrytopright .countrytopright2 {
+    float: left;
+    height: 49%;
+    width: 100%;
+    margin-top:1%;
+    position:relative;
+    background-color: #555;
+}
+.right .country .countrytop .countrytopright .countrytopright2 .countrytopright2img{
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.right .country .countrytop .countrytopleft .lefttext {
+    margin-top:20px;
+    Writing-mode:tb-rl;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+}
+.right .country .countrytop .countrytopright .countrytopright1 .right1text {
+    position:absolute;
+    bottom:0;
+    left:0;
+    opacity:0;
+
+}
+.right .country .countrytop .countrytopright .countrytopright2 .right2text {
+    position:absolute;
+    bottom:0;
+    left:0;
+    opacity:0;
+}
+#return {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #FFF;
+    color:#000;
+    position:absolute;
+    top:20px;
+    left:50px;
+    opacity:0.4;
+    z-index:1;
+
+}
+#return h {
+    position:absolute;
+    color: #000;
+    top:5px;
+    left:10px;
+    font-size:20px;
+
+}
+.left video {
+
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    /*加滤镜*/
+    -webkit-filter: brightness(50%) ;
+    filter:brightness(50%) ;
+
+}
+@-webkit-keyframes twinkling{    /*透明度由0到1*/
+    0%{
+        opacity:0; /*透明度为0*/
+    }
+    50%{
+        opacity:0.5; /*透明度为1*/
+    }
+    100%{
+        opacity:0; /*透明度为0*/
+    }
+
+}
+#bz {
+    position:absolute;
+    right:50px;
+    top:330px;
+    height: 100px;
+    width: 100px;
+    animation: twinkling 1s infinite ease-in-out;
+    z-index:1;
+    background-image:url(../img/right170.png);
+    background-size:100%;
+    opacity:0.5;
+    display:inherit;
+}

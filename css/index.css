@@ -1,0 +1,100 @@
+html body{
+    height: 150%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 150%;
+    background-color: #000;
+}
+
+#all #menu1 {
+    position: relative;
+    margin-left: -6%;
+    background-image: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: left -310px;
+}
+#all #menu2 {
+    width: 15%;
+    margin-left: 25px;
+    background-image: url(../img/image2.jpg);
+    background-repeat: no-repeat;
+    background-position: left -230px;
+}
+#all #menu3 {
+
+
+    margin-left: 25px;
+    background-image: url(../img/image3.jpg);
+    background-repeat: no-repeat;
+    background-position: left -132px;
+}
+#all #menu4 {
+    margin-left: 25px;
+    background-image: url(../img/image4.jpg);
+    background-repeat: no-repeat;
+    background-position: left -38px;
+}
+#all #menu5 {
+    width: 15%;
+    margin-left: 25px;
+    background-image: url(../img/image5.jpg);
+    background-repeat: no-repeat;
+    background-position: left 70px;
+}
+
+#all #name {
+    left: 20px;
+    position: absolute;
+    top: 0px;
+    color: #FFF;
+    z-index: 1;
+    height: 200px;
+    width: 300px;
+}
+.menu{
+    overflow: hidden;
+    width: 15%;
+    background-color: #000;
+	background-size:cover;
+ 
+    float: left;
+    transform: rotate(15deg);
+    -ms-transform: rotate(15deg); /* Internet Explorer */
+    -moz-transform: rotate(15deg); /* Firefox */
+    -webkit-transform: rotate(15deg); /* Safari 和 Chrome */
+    -o-transform: rotate(15deg); /* Opera */
+    margin-top: -90px;
+}
+.text{
+    font-family: "微软雅黑";
+    color: #e4f2f5;
+    font-size: 30px;
+    transform: rotate(-15deg);
+    opacity:0;
+}
+#all #menu1 #text1{
+    left: 0px;
+    margin-top: 250px;
+    margin-left: 70px;
+}
+#all #menu2 #text2{
+    left: 0px;
+    margin-top: 350px;
+    float:left;
+}
+#all #menu3 #text3{
+    left: 0px;
+    margin-top: 450px;
+    float:left;
+}
+#all #menu4 #text4{
+    left: 0px;
+    margin-top: 550px;
+    float:left;
+}
+#all #menu5 #text5{
+    left: 0px;
+    margin-top: 650px;
+    float: left;
+
+}
